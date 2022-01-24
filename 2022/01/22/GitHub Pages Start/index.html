@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GitHub Pages Start!, Hexo">
+    <meta name="keywords" content="GitHub Pages Start!, Oppiz&#39;Blog">
     <meta name="description" content="一、jekyll基本设置 对jekyll的基本功能进行记录。  
 1. post文件夹  jekyll生成后在根目录有许多文件夹（强制生成时会覆盖掉CNAME文件，它是GHPs的域名定义文件），其中_posts文件夹存放文章。写好文章后，有">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,7 +18,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GitHub Pages Start! | Hexo</title>
+    <title>GitHub Pages Start! | Oppiz&#39;Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -31,7 +31,11 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.1"></head>
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 5.4.1"></head>
 
 
 
@@ -45,7 +49,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Hexo</span>
+                    <span class="logo-span">Oppiz&#39;Blog</span>
                 </a>
             </div>
             
@@ -144,10 +148,10 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Hexo</div>
+        <div class="logo-name">Oppiz&#39;Blog</div>
         <div class="logo-desc">
             
-            Never really desperate, only the lost of the soul.
+            硅农
             
         </div>
     </div>
@@ -459,6 +463,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -551,7 +558,9 @@
 </blockquote>
 <h2 id="5、代码"><a href="#5、代码" class="headerlink" title="5、代码"></a>5、代码</h2><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来，<code>printf()</code>函数</p>
 <h3 id="1-代码区块"><a href="#1-代码区块" class="headerlink" title="1)代码区块"></a>1)代码区块</h3><p>用4个空格或一个Tab键<br>    &lt;?hph<br>    echo ‘hello,world’;<br>    function ….<br>    &gt;<br>也可以用3个`包裹一段代码，并紧接着指定在一种语言</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$(<span class="built_in">document</span>).ready(<span class="function"><span class="keyword">function</span>(<span class="params"></span>))</span>&#123;</span><br><span class="line">  alert(<span class="string">&#x27;hello&#x27;</span>);</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
+<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
+  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
 
 <h2 id="6、链接"><a href="#6、链接" class="headerlink" title="6、链接"></a>6、链接</h2><h3 id="1-简单地址"><a href="#1-简单地址" class="headerlink" title="1)简单地址"></a>1)简单地址</h3><p><code>[链接名](地址)</code> 或者直接显示地址<code>&lt;地址&gt;</code><br><a target="_blank" rel="noopener" href="https://baidu.com/">百度</a>  </p>
 <h3 id="2-高级地址"><a href="#2-高级地址" class="headerlink" title="2)高级地址"></a>2)高级地址</h3><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行  </p>
@@ -601,7 +610,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="/about" rel="external nofollow noreferrer">John Doe</a>
+                    <a href="/about" rel="external nofollow noreferrer">Zippo Chen</a>
                 </span>
             </div>
             <div class="reprint__type">
@@ -624,7 +633,7 @@
                     本博客所有文章除特別声明外，均采用
                     <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
                     许可协议。转载请注明来源
-                    <a href="/about" target="_blank">John Doe</a>
+                    <a href="/about" target="_blank">Zippo Chen</a>
                     !
                 </span>
             </div>
@@ -846,7 +855,7 @@
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            Zippo Chen
                             
                         </span>
                     </div>
@@ -883,7 +892,7 @@
                         <span class="publish-author">
                             
                             <i class="fas fa-user fa-fw"></i>
-                            John Doe
+                            Zippo Chen
                             
                         </span>
                     </div>
@@ -1083,7 +1092,7 @@
             
                 <span id="year">2019-2022</span>
             
-            <a href="/about" target="_blank">John Doe</a>
+            <a href="/about" target="_blank">Zippo Chen</a>
             |&nbsp;Powered by&nbsp;<a href="https://hexo.io/" target="_blank">Hexo</a>
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>
             <br>

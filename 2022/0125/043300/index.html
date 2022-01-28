@@ -4,9 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="GitHub Pages Start!, Oppiz&#39;Blog">
-    <meta name="description" content="一、jekyll基本设置 对jekyll的基本功能进行记录。  
-1. post文件夹  jekyll生成后在根目录有许多文件夹（强制生成时会覆盖掉CNAME文件，它是GHPs的域名定义文件），其中_posts文件夹存放文章。写好文章后，有">
+    <meta name="keywords" content="配置优化过程, 集成电路 射频集成电路 IC RFIC">
+    <meta name="description" content="测试各种插件功能">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -18,7 +17,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>GitHub Pages Start! | Oppiz&#39;Blog</title>
+    <title>配置优化过程 | Oppiz`s Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -49,7 +48,7 @@
                     
                     <img src="/medias/logo.png" class="logo-img" alt="LOGO">
                     
-                    <span class="logo-span">Oppiz&#39;Blog</span>
+                    <span class="logo-span">Oppiz`s Blog</span>
                 </a>
             </div>
             
@@ -148,7 +147,7 @@
         
         <img src="/medias/logo.png" class="logo-img circle responsive-img">
         
-        <div class="logo-name">Oppiz&#39;Blog</div>
+        <div class="logo-name">Oppiz`s Blog</div>
         <div class="logo-desc">
             
             硅农
@@ -314,12 +313,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/11.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">GitHub Pages Start!</h1>
+                    <h1 class="description center-align post-title">配置优化过程</h1>
                 </div>
             </div>
         </div>
@@ -433,12 +432,33 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/Hexo/">
+                                <span class="chip bg-color">Hexo</span>
+                            </a>
+                        
+                            <a href="/tags/Markdown/">
+                                <span class="chip bg-color">Markdown</span>
+                            </a>
+                        
+                            <a href="/tags/%E6%9C%AC%E5%9C%B0%E5%8C%96/">
+                                <span class="chip bg-color">本地化</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Hexo/" class="post-category">
+                                Hexo
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -447,7 +467,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-01-22
+                    2022-01-25
                 </div>
                 
 
@@ -471,129 +491,56 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="一、jekyll基本设置"><a href="#一、jekyll基本设置" class="headerlink" title="一、jekyll基本设置"></a>一、jekyll基本设置</h1><p> 对jekyll的基本功能进行记录。  </p>
-<h2 id="1-post文件夹"><a href="#1-post文件夹" class="headerlink" title="1. post文件夹"></a>1. post文件夹</h2><p>  jekyll生成后在根目录有许多文件夹（强制生成时会覆盖掉CNAME文件，它是GHPs的域名定义文件），其中<code>_posts</code>文件夹存放文章。写好文章后，有很多方式去建立，主要通过运行 <code>jekyll serve</code> 命令, 它能启动一个网页服务器，然后自动生成网页文本。</p>
-<p>  JEKYLL对博客文章命名方式有格式要求：按照“ 年-月-日-标题.makeup ”的格式 进行命名。</p>
-<h2 id="2-结束（返回首页）"><a href="#2-结束（返回首页）" class="headerlink" title="2. 结束（返回首页）"></a>2. 结束（<a href="https://blog.isscc.top/">返回首页</a>）</h2><h1 id="二、markdown语法"><a href="#二、markdown语法" class="headerlink" title="二、markdown语法"></a>二、markdown语法</h1><h2 id="1、标题"><a href="#1、标题" class="headerlink" title="1、标题"></a>1、标题</h2><p>在标题的下一行用====表示一级标题，—-表示二级标题。（好像不行）<br>在标题前用n个#表示n级标题。</p>
-<h2 id="2、段落"><a href="#2、段落" class="headerlink" title="2、段落"></a>2、段落</h2><p>在段落的末尾加上2个以上空格再回车就是换行，或者两段之间空一行。</p>
-<h3 id="1-字体"><a href="#1-字体" class="headerlink" title="1)字体"></a>1)字体</h3><p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD<br><em>斜体</em>&amp;<em>斜体</em>(星 文字 星)（_ 文字 _）<br><strong>粗体</strong>&amp;<strong>粗体</strong>(二星 文字 二星)（二划 文字 二划）<br><em><strong>斜粗体</strong></em>, <em><strong>斜粗体</strong></em> （三星  文字 三星）（三划 文字 三划）  </p>
-<h3 id="2-分隔线-useless"><a href="#2-分隔线-useless" class="headerlink" title="2)分隔线(useless)"></a>2)分隔线(useless)</h3><p>用3个以上的*或-或_来形成分隔线  </p>
-<hr>
-<p>分隔线  </p>
-<hr>
-<p>分隔线  </p>
-<hr>
-<h3 id="3-删除线"><a href="#3-删除线" class="headerlink" title="3)删除线"></a>3)删除线</h3><p>在文字两端添加2个~代表删除线<br><del>删除线就是我</del></p>
-<h3 id="4-下划线"><a href="#4-下划线" class="headerlink" title="4)下划线"></a>4)下划线</h3><p><u>在文字的两端加上&lt;字母u&gt;和&lt;左斜 字母u&gt; </u>  </p>
-<h3 id="5-脚注"><a href="#5-脚注" class="headerlink" title="5)脚注"></a>5)脚注</h3><p>文字[指数号 脚注]<br>[指数号 脚注]：脚注说明<br>例：我要发表一篇ISSCC[^ISSCC]<br>[^ISSCC]: 集成电路设计顶级会议！  </p>
-<h2 id="3、列表"><a href="#3、列表" class="headerlink" title="3、列表"></a>3、列表</h2><h3 id="1-无序列表"><a href="#1-无序列表" class="headerlink" title="1)无序列表"></a>1)无序列表</h3><p>使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容。</p>
-<ul>
-<li>新年</li>
-</ul>
-<ul>
-<li>快乐</li>
-</ul>
-<ul>
-<li>恭喜</li>
-</ul>
-<ul>
-<li>发财</li>
-</ul>
-<h3 id="2-有序列表"><a href="#2-有序列表" class="headerlink" title="2)有序列表"></a>2)有序列表</h3><p>使用数字并加上.再空格</p>
-<ol>
-<li>新年</li>
-<li>快乐</li>
-</ol>
-<h3 id="3-列表嵌套"><a href="#3-列表嵌套" class="headerlink" title="3)列表嵌套"></a>3)列表嵌套</h3><p>列表嵌套只需在子列表中的选项前面添加<em><strong>4</strong></em>个空格即可</p>
-<ul>
-<li>新年<ol>
-<li>新年快乐</li>
-<li>恭喜发财</li>
-</ol>
-</li>
-<li>发财<ol>
-<li>财源广进</li>
-<li>一夜暴富</li>
-</ol>
-</li>
-</ul>
-<h2 id="4、区块"><a href="#4、区块" class="headerlink" title="4、区块"></a>4、区块</h2><h3 id="1-区块引用"><a href="#1-区块引用" class="headerlink" title="1)区块引用"></a>1)区块引用</h3><p>区块引用是在段落开头使用 &gt; 符号 ，然后后面紧跟一个空格符号</p>
-<blockquote>
-<p>区块引用<br>能干什么呢？<br>把这个区域标识出来了   </p>
-</blockquote>
-<h3 id="2-区块的嵌套"><a href="#2-区块的嵌套" class="headerlink" title="2)区块的嵌套"></a>2)区块的嵌套</h3><p>一个 &gt; 符号是最外层，两个 &gt; 符号是第一层嵌套，以此类推。类似标题格式。</p>
-<blockquote>
-<p>第一章</p>
-<blockquote>
-<p>第1节</p>
-<blockquote>
-<p>第1段</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h3 id="3-列表中放区块"><a href="#3-列表中放区块" class="headerlink" title="3)列表中放区块"></a>3)列表中放区块</h3><ol>
-<li>列表一<blockquote>
-<p>区块1.1<br>区块1.2  </p>
-</blockquote>
-</li>
-<li>列表二  <blockquote>
-<p>区块2.1</p>
-</blockquote>
-</li>
-</ol>
-<h3 id="4-区块中放列表"><a href="#4-区块中放列表" class="headerlink" title="4)区块中放列表"></a>4)区块中放列表</h3><blockquote>
-<p>区块一</p>
-<blockquote>
-<ol>
-<li>列表1.1<ol start="2">
-<li>列表1.2</li>
-</ol>
-</li>
-</ol>
-</blockquote>
-<ul>
-<li>列表二</li>
-<li>列表三</li>
-</ul>
-</blockquote>
-<h2 id="5、代码"><a href="#5、代码" class="headerlink" title="5、代码"></a>5、代码</h2><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来，<code>printf()</code>函数</p>
-<h3 id="1-代码区块"><a href="#1-代码区块" class="headerlink" title="1)代码区块"></a>1)代码区块</h3><p>用4个空格或一个Tab键<br>    &lt;?hph<br>    echo ‘hello,world’;<br>    function ….<br>    &gt;<br>也可以用3个`包裹一段代码，并紧接着指定在一种语言</p>
-<pre class="line-numbers language-javascript" data-language="javascript"><code class="language-javascript"><span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token parameter"><span class="token keyword">function</span><span class="token punctuation">(</span><span class="token punctuation">)</span></span><span class="token punctuation">)</span><span class="token punctuation">&#123;</span>
-  <span class="token function">alert</span><span class="token punctuation">(</span><span class="token string">'hello'</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
-<span class="token punctuation">&#125;</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+                <h1 id="零、快速开始"><a href="#零、快速开始" class="headerlink" title="零、快速开始"></a>零、快速开始</h1><h1 id="一、增加功能"><a href="#一、增加功能" class="headerlink" title="一、增加功能"></a>一、增加功能</h1><h1 id="二、主题特色化-amp-优化"><a href="#二、主题特色化-amp-优化" class="headerlink" title="二、主题特色化&amp;优化"></a>二、主题特色化&amp;优化</h1><p>TOC：Table of Contents，HEXO自带了TOC生成功能，在文章头里可以设置开启/关闭，主题配置文件可设置展开级数，自动收缩等(ctrl+F:TOC)。</p>
+<h2 id="2、页"><a href="#2、页" class="headerlink" title="2、页"></a>2、页</h2><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">hexo new page <span class="token string">"categories"</span>   <span class="token comment">#分类页</span>
+hexo new page <span class="token string">"tags"</span>         <span class="token comment">#标签</span>
+hexo new page <span class="token string">"about"</span>        <span class="token comment">#关于</span>
+hexo new page <span class="token string">"friends"</span>      <span class="token comment">#友情链接</span>
+hexo new page <span class="token string">"contact"</span>      <span class="token comment">#留言</span>
+``<span class="token variable"><span class="token variable">`</span>  
 
-<h2 id="6、链接"><a href="#6、链接" class="headerlink" title="6、链接"></a>6、链接</h2><h3 id="1-简单地址"><a href="#1-简单地址" class="headerlink" title="1)简单地址"></a>1)简单地址</h3><p><code>[链接名](地址)</code> 或者直接显示地址<code>&lt;地址&gt;</code><br><a target="_blank" rel="noopener" href="https://baidu.com/">百度</a>  </p>
-<h3 id="2-高级地址"><a href="#2-高级地址" class="headerlink" title="2)高级地址"></a>2)高级地址</h3><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行  </p>
-<p><code>[谷歌][google]，文末再统一赋值[google]: www.google.com</code>  </p>
-<p>友情链接：<a target="_blank" rel="noopener" href="https://www.google.com/">谷歌</a>  </p>
-<h2 id="7、图片"><a href="#7、图片" class="headerlink" title="7、图片"></a>7、图片</h2><p>图片的语法格式  </p>
-<pre><code class="markdown">![alt 属性文本](地址 &quot;可选标题&quot;)  
-也可以向网址一样对图片网址进行变量代换  
-设置宽度&lt;img src=&quot;https://gimg2.baidu.com/image_search/s0c&quot; width=&quot;50%&quot;&gt;
-</code></pre>
-<h2 id="8、表格-useless"><a href="#8、表格-useless" class="headerlink" title="8、表格(useless)"></a>8、表格(useless)</h2><p><img src="https://raw.githubusercontent.com/czippo/czippo.github.io/main/_pictures/%E5%9B%BE%E8%A1%A8.png" alt="表格">  </p>
-<table>
-<thead>
-<tr>
-<th align="left">paper</th>
-<th align="center">noise figure(NF)</th>
-<th align="right">OIP3</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">jssc</td>
-<td align="center">3.2</td>
-<td align="right">-3</td>
-</tr>
-<tr>
-<td align="left">ISSCC</td>
-<td align="center">2.8</td>
-<td align="right">0</td>
-</tr>
-</tbody></table>
-<h2 id="9、进阶"><a href="#9、进阶" class="headerlink" title="9、进阶"></a>9、进阶</h2><p><a target="_blank" rel="noopener" href="https://www.runoob.com/markdown/md-advance.html">进阶技巧</a></p>
-<hr>
-<hr>
+<span class="token comment"># 三、安装的插件</span>
++ 安装过的插件
++ 安装命令及相关配置
++ 过程中遇到的问题  
+通过npm list
+<span class="token comment">## 1、dplayer</span>
+dplayer是用来在网页中插入视频的，安装命令:  
+<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span><span class="token function">bash</span>
+<span class="token function">npm</span> <span class="token function">install</span> dplayer 
+<span class="token variable">`</span></span>`<span class="token variable"><span class="token variable">`</span>  
+<span class="token comment">### 1.2 问题  </span>
+有些解析不了。。。  
+
+<span class="token comment">## 2、hexo-math  </span>
+用来显示数学公式  
+<span class="token variable">`</span></span>``bash
+<span class="token function">npm</span> <span class="token function">install</span> hexo-math --save<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<h3 id="2-1-MathML语言与LaTxt"><a href="#2-1-MathML语言与LaTxt" class="headerlink" title="2.1 MathML语言与LaTxt"></a>2.1 MathML语言与LaTxt</h3><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/ViatorSun/article/details/82826664">超详细 LaTex数学公式</a><br><a target="_blank" rel="noopener" href="https://www.zybuluo.com/knight/note/96093">2</a></p>
+<h2 id="3、搜索"><a href="#3、搜索" class="headerlink" title="3、搜索"></a>3、搜索</h2><p>在博客中增加内容搜索</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-generator-search --save<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>在 Hexo 根目录下的<code>_config.yml</code>文件中，新增以下的配置项:</p>
+<pre class="line-numbers language-yml" data-language="yml"><code class="language-yml">search:
+  path: search.xml
+  field: post<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+<h2 id="4、字数统计"><a href="#4、字数统计" class="headerlink" title="4、字数统计"></a>4、字数统计</h2><p>在文章中显示文章字数、阅读时长信息</p>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash"><span class="token function">npm</span> i --save hexo-wordcount
+``<span class="token variable"><span class="token variable">`</span>   
+根目录下的<span class="token variable">`</span></span>_config.yml<span class="token variable"><span class="token variable">`</span>文件中，新增以下的配置项:   
+<span class="token variable">`</span></span>``yml
+wordCount:
+  enable: <span class="token boolean">false</span>         <span class="token comment"># 将这个值设置为 true 即可.</span>
+  postWordCount: <span class="token boolean">true</span>   <span class="token comment">#字数统计</span>
+  min2read: <span class="token boolean">true</span>        <span class="token comment"># 阅读时长预计</span>
+  totalCount: <span class="token boolean">true</span>      <span class="token comment">#网站总字数</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<h1 id="四、部署到腾讯云"><a href="#四、部署到腾讯云" class="headerlink" title="四、部署到腾讯云"></a>四、部署到腾讯云</h1><p><code>npm i -g @cloudbase/cli hexo-cli</code><br><code>cloudbase hosting deploy public -e blog-8grg2mls20371f76</code>  ps:[环境id]</p>
+<h1 id="五、markdown补充"><a href="#五、markdown补充" class="headerlink" title="五、markdown补充"></a>五、markdown补充</h1><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">align</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>center</span><span class="token punctuation">></span></span>  #居中对齐<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+<p>空格：<br><code>&amp;emsp;</code>&emsp;表示一个中文空格<br>&amp;ensp;&emsp;表示装修个中文空格<br><code>$~~~~~~$</code>$~~~~~~$能实现，对不齐  </p>
 
                 
             </div>
@@ -620,7 +567,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://blog.isscc.top/2022/01/22/GitHub%20Pages%20Start/">https://blog.isscc.top/2022/01/22/GitHub%20Pages%20Start/</a>
+                    <a href="https://blog.isscc.top/2022/0125/043300/">https://blog.isscc.top/2022/0125/043300/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -657,7 +604,19 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/Hexo/">
+                                    <span class="chip bg-color">Hexo</span>
+                                </a>
+                            
+                                <a href="/tags/Markdown/">
+                                    <span class="chip bg-color">Markdown</span>
+                                </a>
+                            
+                                <a href="/tags/%E6%9C%AC%E5%9C%B0%E5%8C%96/">
+                                    <span class="chip bg-color">本地化</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -829,36 +788,58 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2022/01/24/hello-world/">
+                <a href="/2022/0125/043300/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="配置优化过程">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">配置优化过程</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            测试各种插件功能
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-01-24
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-25
+                            </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Zippo Chen
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Hexo/" class="post-category">
+                                    Hexo
+                                </a>
+                            
                             
                         </span>
                     </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Hexo/">
+                        <span class="chip bg-color">Hexo</span>
+                    </a>
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/%E6%9C%AC%E5%9C%B0%E5%8C%96/">
+                        <span class="chip bg-color">本地化</span>
+                    </a>
+                    
                 </div>
                 
             </div>
@@ -867,37 +848,52 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/01/22/GitHub%20Pages%20Start/">
+                <a href="/2022/0124/153410/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="GitHub Pages Start!">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="成一次吧，谢谢！">
                         
-                        <span class="card-title">GitHub Pages Start!</span>
+                        <span class="card-title">成一次吧，谢谢！</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
+                            测试各种插件功能
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-22
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-01-24
                             </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-user fa-fw"></i>
-                            Zippo Chen
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
                             
                         </span>
                     </div>
                 </div>
-
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/Markdown/">
+                        <span class="chip bg-color">Markdown</span>
+                    </a>
+                    
+                    <a href="/tags/test/">
+                        <span class="chip bg-color">test</span>
+                    </a>
+                    
+                </div>
                 
             </div>
         </div>
@@ -1025,6 +1021,13 @@
 
 </main>
 
+
+<script src="https://cdn.bootcss.com/mathjax/2.7.5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script>
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    });
+</script>
 
 
 
